@@ -4,10 +4,10 @@ A Chrome extension that lets you theme Claude.ai however you want. Got tired of 
 
 ## What it does
 
-- **Sidebar gradient** — customize the sidebar with a gradient that actually sticks
-- **Accent colors** — change buttons, links, gradients, SVG icons, whatever
-- **Chat styling** — adjust user message backgrounds, input box colors, borders
-- **Persistent settings** — your theme survives page reloads and new chats
+- **Sidebar gradient**  customize the sidebar with a gradient that actually sticks
+- **Accent colors**  change buttons, links, gradients, SVG icons, whatever
+- **Chat styling**  adjust user message backgrounds, input box colors, borders
+- **Persistent settings**  your theme survives page reloads and new chats
 
 ## Install
 

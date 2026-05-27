@@ -2,14 +2,14 @@
 
 A Chrome extension that lets you theme Claude.ai however you want. Got tired of the default colors? Change literally everything.
 
-## What it does
+## What Reflow does:
 
 - **Sidebar gradient**  customize the sidebar with a gradient that actually sticks
 - **Accent colors**  change buttons, links, gradients, SVG icons, whatever
 - **Chat styling**  adjust user message backgrounds, input box colors, borders
 - **Persistent settings**  your theme survives page reloads and new chats
 
-## Install
+## Installation:
 
 1. Clone this repo or download the files
 2. Go to `chrome://extensions/`
@@ -17,13 +17,13 @@ A Chrome extension that lets you theme Claude.ai however you want. Got tired of 
 4. Click "Load unpacked" and select the extension folder
 5. Done
 
-## How to use
+## How to use:
 
 Click the **Claude Reflow** button at the bottom of the sidebar. A panel slides in from the right with all the color options. Pick whatever you want, hit "Save settings", and it applies instantly.
 
 Settings persist using Chrome's sync storage, so they stick around even if you close the browser or start a new chat.
 
-## What you can customize
+## What you can customize:
 
 - Accent color (buttons, hover states)
 - Sidebar background
@@ -34,7 +34,7 @@ Settings persist using Chrome's sync storage, so they stick around even if you c
 - Input box styling (background, border, text)
 - Settings menu text color
 
-## Notes
+## Notes:
 
 - The extension hooks into Claude's DOM pretty aggressively to apply styles. If Claude's UI updates significantly, some selectors might need tweaking
 - Inline styles are used to force colors through CSS specificity hell. It works but it's not elegant

@@ -78,9 +78,6 @@ made at 1:36 AM fueled by spite for Anthropic's UI architects *(Yes this is a jo
 - Fixed a bug where if you clicked on the ReFlow settings menu again after opening it, it wouldn't close.
 - There more I have not listed here, sorry but I have been working on this for the past couple weeks/months.
 
-## CHANGELOG: (V1.2.0.4) 
-- Fixed a bug where ReFlow injects the content.js on the "claude.ai/login?" domains, instead of only on claude.ai logged in domains.
-
 ### Bugs that I am aware of and will be fixing in a future update:
 - Accent color no longer applies to the Model selector button, or the tool buttons under Claude's responses, or the "+" button to add files or skills, or the example prompts on the claude.ai/new page.
 - Message send button on claude.ai/new still displays in orange (DEFAULT) rather than the ReFlow accent color.

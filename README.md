@@ -46,7 +46,6 @@ Settings persist using Chrome's sync storage, so they stick around even if you c
 - The extension hooks into Claude's DOM pretty aggressively to apply styles. If Claude's UI updates significantly, some selectors might need tweaking
 - Inline styles are used to force colors through CSS specificity hell. It works but it's not elegant
 - Gradients on the top banner and sidebar are applied via JavaScript for reliability
-- The reason it says v1.2.0.3 instead of v1.2.0 is because I had literated on some developer copies before I came out with v1.2.0.3, therefore the v1.2.0.3 will be the public version of v1.2.0. 
 - There is a hidden easter egg in the images folder..
 
 **(THESE ARE OLD PREVIEWS YOU CAN SCROLL DOWN TO SEE THE MOST RECENT ONES.)**
@@ -54,10 +53,10 @@ Before: <img width="1904" height="907" alt="image" src="https://github.com/user-
 
 After: <img width="1908" height="912" alt="image" src="https://github.com/user-attachments/assets/6b13c3f2-c7d3-4af9-bfdb-676debe9250e" />
 
-**v1.2.0.3 Preview screenshots:**
+**v1.2.0.4 Preview screenshots:**
 Before: <img width="1917" height="914" alt="Screenshot 2026-08-01 080718" src="https://github.com/user-attachments/assets/1b3d0d65-a83d-482a-89ce-d1bcd4334b90" />
 
-After: <img width="1913" height="910" alt="Screenshot 2026-08-01 080359" src="https://github.com/user-attachments/assets/a43136b2-334d-42bb-a274-4b8414a5f627" />
+After: <img width="1917" height="907" alt="Screenshot 2026-08-10 165649" src="https://github.com/user-attachments/assets/dd4ed454-a88a-44a9-a64f-124e94cda953" />
 
 ## Issues?
 
@@ -67,16 +66,6 @@ If you find any bugs please submit it in the GItHub Issues section of this repo.
 ---
 
 made at 1:36 AM fueled by spite for Anthropic's UI architects *(Yes this is a joke because when I was doing v1.0 the selectors were a huge pain to set-up correctly.)*
-
-## CHANGELOG: (V1.2.0.3)
-- Fixed a bug where the Chat Background selector didn't cover the "Claude is AI and can make mistakes." disclaimer. 
-- Fixed a bug where the Chat Background selector was aggressively bleeding into the Claude settings menu instead of staying inside the primary chat interface.
-- General performance patches, and rendering issues when using the extension.
-- Added the ability to export and import Claude ReFlow presets with a title, and description. **(Panel for previewing the description and Preset will be coming in a future update.)**
-- Added the ability to change the color of the text when hovering over recent chats or sidebar buttons via a picker titled: "Sidebar Hover Text Color".
-- Added a small welcome guide that automatically appears in the center of the user's screen upon using Claude ReFlow for the first time.
-- Fixed a bug where if you clicked on the ReFlow settings menu again after opening it, it wouldn't close.
-- There more I have not listed here, sorry but I have been working on this for the past couple weeks/months.
 
 ### Bugs that I am aware of and will be fixing in a future update:
 - Accent color no longer applies to the Model selector button, or the tool buttons under Claude's responses, or the "+" button to add files or skills, or the example prompts on the claude.ai/new page.
